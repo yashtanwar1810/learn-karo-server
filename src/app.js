@@ -5,6 +5,7 @@ import bodyParser from "body-parser"
 import cookieParser from "cookie-parser"
 
 // module imports
+import { env } from "./config/env.config.js"
 import { authRouter } from "./routes/auth.routes.js"
 
 export const app = express()
